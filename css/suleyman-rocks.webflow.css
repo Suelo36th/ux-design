@@ -90,10 +90,10 @@ a {
 
 .hero-paragraph {
   max-width: 90vh;
-  margin-top: 10px;
-  padding-left: 10px;
+  margin-top: 0px;
+  padding-left: 0px;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 2.3vh;
+  font-size: 1.3em;
   line-height: 130%;
 }
 
@@ -103,8 +103,8 @@ a {
 }
 
 .button {
-  min-width: 200px;
-  padding: 11px 32px 12px;
+  min-width: 150px;
+  padding: 6px 0px;
   border-style: solid;
   border-width: 3px;
   border-color: #000;
@@ -137,7 +137,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 20vh 60px 40px;
+  padding: 40vh 60px 40px;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -146,8 +146,12 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  border: 2px solid #000;
+  border: 3px solid #000;
   background-color: transparent;
+}
+
+.hero-wrap.about {
+  padding-top: 25vh;
 }
 
 .highlight {
@@ -170,9 +174,9 @@ a {
   margin-right: 10px;
   margin-bottom: 0px;
   font-family: Poppins, sans-serif;
-  font-size: 9vh;
-  line-height: 130%;
-  font-weight: 600;
+  font-size: 3vh;
+  line-height: 100%;
+  font-weight: 500;
 }
 
 .hero-heading.about {
@@ -195,12 +199,12 @@ a {
 
 .headline-wrap {
   max-width: 100vh;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .headline-wrap.about {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   margin-bottom: 30px;
 }
 
@@ -233,7 +237,8 @@ a {
   padding-left: 0px;
   box-shadow: inset 0 -10px 0 0 #ffe872;
   font-family: Poppins, sans-serif;
-  font-weight: 600;
+  font-size: 1.1em;
+  font-weight: 500;
 }
 
 .yellow-link {
@@ -446,7 +451,7 @@ a {
   margin-right: 24px;
   margin-left: 24px;
   padding: 50px 60px 24px;
-  border: 2px solid #000;
+  border: 3px solid #000;
   background-color: transparent;
 }
 
@@ -529,7 +534,7 @@ a {
 }
 
 .image {
-  max-width: 60%;
+  max-width: 40%;
 }
 
 .header-wrapper-2 {
@@ -551,7 +556,7 @@ a {
 }
 
 .about-paragraph {
-  max-width: 90vh;
+  max-width: 100%;
   color: rgba(0, 0, 0, 0.8);
   font-size: 2.3vh;
   line-height: 3vh;
@@ -622,7 +627,7 @@ a {
 }
 
 .content-wrapper {
-  max-width: 470px;
+  max-width: 50%;
 }
 
 .body {
@@ -630,6 +635,10 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  .hero {
+    min-height: 100vh;
+  }
+
   .hero-paragraph.about {
     padding-left: 0px;
   }
@@ -649,6 +658,10 @@ a {
   .navbar {
     padding-right: 40px;
     padding-left: 40px;
+  }
+
+  .scroll-wrapper {
+    bottom: 10px;
   }
 
   .section {
@@ -758,6 +771,7 @@ a {
   }
 
   .hero-wrap {
+    height: auto;
     padding-top: 140px;
     padding-right: 30px;
     padding-left: 30px;
@@ -830,7 +844,7 @@ a {
   }
 
   .hero {
-    min-height: auto;
+    min-height: 100vh;
     padding: 16px;
   }
 
@@ -840,6 +854,7 @@ a {
   }
 
   .hero-wrap {
+    height: auto;
     padding-top: 120px;
     padding-right: 20px;
     padding-left: 20px;
