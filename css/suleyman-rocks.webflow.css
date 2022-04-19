@@ -429,6 +429,14 @@ a {
   flex: 1;
 }
 
+.right-column a {
+
+  font-size: 1.3em;
+  line-height: 2em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 .what-i-do {
   display: -webkit-box;
   display: -webkit-flex;
@@ -584,11 +592,12 @@ a {
 }
 
 .image-column.reverse {
-  left: auto;
-  max-width: 300px;
+
+  max-width: 260px;
   margin-left: 60px;
   margin-right: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+
 }
 
 .flexbox-2 {
@@ -717,6 +726,8 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+
 
   .what-i-do {
     margin-bottom: 40px;
