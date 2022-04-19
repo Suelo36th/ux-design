@@ -93,7 +93,7 @@ a {
   margin-top: 0px;
   padding-left: 0px;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 1.3em;
+  font-size: 1.6em;
   line-height: 130%;
 }
 
@@ -174,14 +174,16 @@ a {
   margin-right: 10px;
   margin-bottom: 0px;
   font-family: Poppins, sans-serif;
-  font-size: 3vh;
+  font-size: 6vh;
   line-height: 100%;
   font-weight: 500;
 }
 
+
+
 .hero-heading.about {
   max-width: 90vh;
-  font-size: 4vh;
+  font-size: 1.6em;
   font-weight: 400;
 }
 
@@ -500,6 +502,7 @@ a {
 
 .header-paragraph {
   max-width: 736px;
+  text-align: left;
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
@@ -558,8 +561,8 @@ a {
 .about-paragraph {
   max-width: 100%;
   color: rgba(0, 0, 0, 0.8);
-  font-size: 2.3vh;
-  line-height: 3vh;
+  font-size: 1 em;
+  line-height: 130%;
 }
 
 .link-block {
@@ -569,6 +572,7 @@ a {
 
 .image-column {
   position: relative;
+  
   display: block;
   max-width: 565px;
   margin-right: 60px;
@@ -581,11 +585,10 @@ a {
 
 .image-column.reverse {
   left: auto;
-  top: -30px;
   max-width: 300px;
-  margin-top: -30px;
-  margin-right: 140px;
   margin-left: 60px;
+  margin-right: 80px;
+  margin-bottom: 80px;
 }
 
 .flexbox-2 {
