@@ -420,7 +420,7 @@ a {
 
 .right-column {
   max-width: 544px;
-  padding-top: 30px;
+
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -460,7 +460,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 260px;
+  margin-bottom:120px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -711,6 +711,7 @@ a {
   }
 
   .right-column {
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 
@@ -730,7 +731,7 @@ a {
   }
 
   .want-to-work {
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
